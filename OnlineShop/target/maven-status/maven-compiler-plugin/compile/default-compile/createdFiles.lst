@@ -1,5 +1,7 @@
-com\ibm\internship\onlineshop\OnlineShopApplication.class
+com\ibm\internship\onlineshop\utils\jdbc\MySQLConnectionUtils.class
+com\ibm\internship\onlineshop\repositories\ProductRepository.class
 com\ibm\internship\onlineshop\model\Category.class
 com\ibm\internship\onlineshop\model\ProductReview.class
-com\ibm\internship\onlineshop\HelloController.class
 com\ibm\internship\onlineshop\model\Product.class
+com\ibm\internship\onlineshop\OnlineShopApplication.class
+com\ibm\internship\onlineshop\HelloController.class

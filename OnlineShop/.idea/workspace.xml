@@ -9,7 +9,34 @@
     <list default="true" id="f5501f06-8a32-4b9b-a5fc-a0aa8d0f7928" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/OnlineShopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/OnlineShopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/HelloWeb-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/OnlineShopApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/model/ProductReview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/jsp/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/jstl-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/spring-aop-4.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/spring-beans-4.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/spring-context-4.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/spring-core-4.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/spring-expression-4.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/spring-web-4.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/spring-webmvc-4.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/tld/c-1.1.2.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/tld/fmt-1.1.2.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/OnlineShopApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/OnlineShopApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+            <state relative-caret-position="141">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -51,15 +78,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -85,13 +103,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/OnlineShopApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+            <state relative-caret-position="21">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProductRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,10 +256,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/domain/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/domain/ProductReview.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/model/ProductReview.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/utils/jdbc/DBProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/OnlineShopApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/OnlineShopApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/repositories/ProductRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/ProductRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProductRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java" />
       </list>
     </option>
   </component>
@@ -250,7 +295,9 @@
     <option name="width" value="980" />
     <option name="height" value="1031" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -298,23 +345,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="onlineshop" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="onlineshop" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,14 +369,23 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548933703052" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548938365499" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DaliaCaspriac\Desktop\links\OnlineShop Web Application\project\OnlineShop\src" />
+      <recent name="C:\Users\DaliaCaspriac\Desktop\links\OnlineShop Web Application\project\OnlineShop\src\main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -346,7 +399,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OnlineShopApplication">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest (1)">
     <configuration name="OnlineShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ibm.internship.onlineshop.OnlineShopApplication" />
       <module name="OnlineShop" />
@@ -356,6 +409,46 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.ProductRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.getAllProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="getAllProductsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -506,6 +599,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest (1)" />
+        <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.ProductRepositoryTest.getAllProductsTest" />
         <item itemvalue="Application.OnlineShopApplication" />
       </list>
     </recent_temporary>
@@ -524,28 +620,36 @@
       <workItem from="1548845911274" duration="6279000" />
       <workItem from="1548853065640" duration="1428000" />
       <workItem from="1548920175850" duration="1054000" />
-      <workItem from="1548924060299" duration="6191000" />
+      <workItem from="1548924060299" duration="10843000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProductRepositoryTest_getAllProductsTest - 2019.01.31 at 14h 01m 13s.xml">
+      <configuration name="ProductRepositoryTest.getAllProductsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductRepositoryTest - 2019.01.31 at 14h 10m 53s.xml">
+      <configuration name="ProductRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15015000" />
+    <option name="totallyTimeSpent" value="19667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680162" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.2680162" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" sideWeight="0.5026455" weight="0.2680162" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21492007" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +666,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.18461539" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18461539" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
@@ -695,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/utils/jdbc/DBProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -721,10 +818,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/OnlineShopApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
