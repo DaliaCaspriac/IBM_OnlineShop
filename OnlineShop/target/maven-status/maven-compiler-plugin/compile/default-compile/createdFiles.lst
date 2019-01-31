@@ -1,1 +1,5 @@
+com\ibm\internship\onlineshop\OnlineShopApplication.class
+com\ibm\internship\onlineshop\model\Category.class
+com\ibm\internship\onlineshop\model\ProductReview.class
 com\ibm\internship\onlineshop\HelloController.class
+com\ibm\internship\onlineshop\model\Product.class
