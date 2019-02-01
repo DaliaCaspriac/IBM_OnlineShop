@@ -18,7 +18,13 @@ public class MySQLConnectionUtils {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
 
-    //connect to MySQL
+    /**
+     * Establish connection with MySQL database
+     *
+     * @return a Connection object
+     * @throws IllegalAccessException if the connection to database fails
+     * @throws ClassNotFoundException
+     */
     public Connection getMySQLConnection() throws IllegalAccessException, ClassNotFoundException {
         String connectionURL = "jdbc:mysql://" + HOSTNAME + ":3306/" + DATABASE_NAME;
         Connection connection;
@@ -28,7 +34,6 @@ public class MySQLConnectionUtils {
             logger.debug("Connected successfully.");
             return connection;
         } catch (SQLException e) {
-            //logger
             logger.debug("Failed connection.");
             throw new IllegalAccessException(e.getMessage());
         }

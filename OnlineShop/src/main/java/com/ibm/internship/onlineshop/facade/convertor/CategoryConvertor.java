@@ -5,6 +5,13 @@ import com.ibm.internship.onlineshop.model.Category;
 import org.modelmapper.ModelMapper;
 
 public class CategoryConvertor implements Convertor<Category, CategoryDTO> {
+
+    /**
+     * Convert Category to CategoryDTO
+     *
+     * @param item
+     * @return
+     */
     @Override
     public CategoryDTO convert(Category item) {
         return new ModelMapper().map(item, CategoryDTO.class);
