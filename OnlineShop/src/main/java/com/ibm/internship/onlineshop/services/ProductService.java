@@ -21,4 +21,8 @@ public class ProductService {
     public List<Product> getAllProducts() throws IllegalAccessException, ClassNotFoundException, SQLException {
         return productRepository.getAllProducts();
     }
+
+    public List<Product> getProductsByCategory(int categoryCode) throws IllegalAccessException, ClassNotFoundException {
+        return productRepository.getProductsByCategory(categoryCode);
+    }
 }

@@ -26,4 +26,8 @@ public class ProductFacade {
 ////                .collect(Collectors.toList());
         return productService.getAllProducts();
     }
+
+    public List<Product> getProductsByCategory(int categoryCode) throws ClassNotFoundException, IllegalAccessException {
+        return productService.getProductsByCategory(categoryCode);
+    }
 }

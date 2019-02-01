@@ -12,25 +12,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/facade/ProductFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/facade/ProductFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allProductsView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allProductsView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/HelloWeb-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/HelloWeb-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/facade/ProductFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/facade/ProductFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/repositories/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/repositories/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/services/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/classes/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/jsp/allProductsView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/jsp/allProductsView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/facade/ProductFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/facade/ProductFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/repositories/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/repositories/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/services/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MySQLConnectionUtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/MySQLConnectionUtilsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MySQLConnectionUtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MySQLConnectionUtilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ProductRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ProductRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allProductsView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showProductTable.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop/WEB-INF/jsp/allProductsView.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +38,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allProductsView.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showProductTable.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            <state relative-caret-position="399">
+              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showProductsByCategory.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -83,15 +75,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -106,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/services/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="173">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/controllers/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="131">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="104">
+              <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/facade/ProductFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="194">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +150,8 @@
       <list>
         <option value="XSLT Stylesheet" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -213,16 +196,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/controllers/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/services/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/utils/jdbc/MySQLConnectionUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/facade/ProductFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/controllers/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/css/productsTable.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/productsTable.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allProductsView.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/productsTable.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allProductsView.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showProductsByCategory.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/services/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/facade/ProductFacade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/controllers/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java" />
       </list>
     </option>
   </component>
@@ -445,7 +429,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549022956603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549026492580" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -708,7 +692,7 @@
       <workItem from="1548920175850" duration="1054000" />
       <workItem from="1548924060299" duration="19606000" />
       <workItem from="1549005425576" duration="11556000" />
-      <workItem from="1549020406337" duration="2400000" />
+      <workItem from="1549020406337" duration="5299000" />
     </task>
     <servers />
   </component>
@@ -736,13 +720,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42386000" />
+    <option name="totallyTimeSpent" value="45285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.2777328" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.2777328" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -752,7 +736,7 @@
       <window_info id="Structure" order="7" sideWeight="0.5026455" weight="0.2680162" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3232682" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24689165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47069272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -769,7 +753,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18461539" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.18461539" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
@@ -779,48 +763,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
@@ -1161,46 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/services/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/controllers/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/facade/ProductFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1222,10 +1124,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allProductsView.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showProductsByCategory.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showProductTable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/controllers/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/facade/ProductFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/services/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ibm/internship/onlineshop/repositories/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
