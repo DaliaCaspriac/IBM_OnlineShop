@@ -1,4 +1,4 @@
-package com.ibm.internship.onlineshop;
+package com.ibm.internship.onlineshop.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
