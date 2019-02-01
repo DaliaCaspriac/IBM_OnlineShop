@@ -2,6 +2,7 @@ package com.ibm.internship.onlineshop.repositories;
 
 import com.ibm.internship.onlineshop.model.Product;
 import com.ibm.internship.onlineshop.utils.jdbc.MySQLConnectionUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
@@ -14,9 +15,9 @@ import java.util.List;
 @Repository
 public class ProductRepository {
 
-    public List<Product> getAllProducts() throws IllegalAccessException {
-        MySQLConnectionUtils mySQLConnectionUtils = new MySQLConnectionUtils();
-        Connection connection = mySQLConnectionUtils.getMySQLConnection();
+
+    public List<Product> getAllProducts() throws IllegalAccessException, ClassNotFoundException, SQLException {
+        Connection connection = new MySQLConnectionUtils().getMySQLConnection();
         List<Product> products = new ArrayList<>();
         Product product;
         try {
@@ -38,6 +39,9 @@ public class ProductRepository {
             return products;
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+        finally {
+            connection.close();
         }
         return null;
     }

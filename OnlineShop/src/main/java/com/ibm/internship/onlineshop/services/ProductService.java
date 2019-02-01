@@ -5,6 +5,7 @@ import com.ibm.internship.onlineshop.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.sql.SQLException;
 import java.util.List;
 
 @Service
@@ -17,7 +18,7 @@ public class ProductService {
      * Get all products
      * @return list of products
      */
-    public List<Product> getAllProducts() throws IllegalAccessException{
+    public List<Product> getAllProducts() throws IllegalAccessException, ClassNotFoundException, SQLException {
         return productRepository.getAllProducts();
     }
 }

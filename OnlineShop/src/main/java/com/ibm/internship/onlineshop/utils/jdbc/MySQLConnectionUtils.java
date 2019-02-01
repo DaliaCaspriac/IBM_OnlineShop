@@ -1,6 +1,7 @@
 package com.ibm.internship.onlineshop.utils.jdbc;
 
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
@@ -10,21 +11,26 @@ import java.sql.SQLException;
 @Component
 public class MySQLConnectionUtils {
 
-    private static final String HOSTNAME = "localhost";
+    private Logger logger = Logger.getLogger(MySQLConnectionUtils.class);
+
+    private static final String HOSTNAME = "127.0.0.1";
     private static final String DATABASE_NAME = "onlineshop";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
 
     //connect to MySQL
-    public Connection getMySQLConnection() throws IllegalAccessException {
+    public Connection getMySQLConnection() throws IllegalAccessException, ClassNotFoundException {
         String connectionURL = "jdbc:mysql://" + HOSTNAME + ":3306/" + DATABASE_NAME;
-        Connection connection = null;
+        Connection connection;
         try {
+            Class.forName("com.mysql.jdbc.Driver");
             connection = DriverManager.getConnection(connectionURL, USERNAME, PASSWORD);
+            logger.debug("Connected successfully.");
             return connection;
         } catch (SQLException e) {
             //logger
-            throw new IllegalAccessException();
+            logger.debug("Failed connection.");
+            throw new IllegalAccessException(e.getMessage());
         }
     }
 }

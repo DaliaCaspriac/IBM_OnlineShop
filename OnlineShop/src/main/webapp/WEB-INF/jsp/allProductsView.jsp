@@ -10,18 +10,20 @@
 <html>
 <head>
     <title>Online shop</title>
+    <link href="<c:url value="/resources/css/productsTableStyle.css" />" rel="stylesheet">
 </head>
 <body>
 <table>
+    <tr>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Price</th>
+    </tr>
     <c:forEach items="${products}" var="product">
         <tr>
             <td><c:out value="${product.name}"/></td>
             <td><c:out value="${product.description}"/></td>
-            <td><c:out value="${product.color}"/></td>
-            <td><c:out value="${product.dimension}"/></td>
-            <td><c:out value="${product.weight}"/></td>
-            <td><c:out value="${product.price}"/></td>
-            <td><c:out value="${product.quantity}"/></td>
+            <td><c:out value="${product.price} £"/></td>
         </tr>
     </c:forEach>
 </table>
