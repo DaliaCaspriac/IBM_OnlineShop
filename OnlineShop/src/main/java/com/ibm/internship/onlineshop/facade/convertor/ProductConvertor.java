@@ -7,6 +7,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ProductConvertor implements Convertor<Product, ProductDTO> {
+
+    /**
+     * Convert Product to ProductDTO
+     *
+     * @param item
+     * @return
+     */
     @Override
     public ProductDTO convert(Product item) {
         return new ModelMapper().map(item, ProductDTO.class);

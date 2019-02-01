@@ -16,12 +16,21 @@ public class ProductService {
 
     /**
      * Get all products
-     * @return list of products
+     *
+     * @return list of Product
      */
-    public List<Product> getAllProducts() throws IllegalAccessException, ClassNotFoundException, SQLException {
+    public List<Product> getAllProducts() throws IllegalAccessException, ClassNotFoundException {
         return productRepository.getAllProducts();
     }
 
+    /**
+     * Get products by category
+     *
+     * @param categoryCode
+     * @return list of Product
+     * @throws IllegalAccessException
+     * @throws ClassNotFoundException
+     */
     public List<Product> getProductsByCategory(int categoryCode) throws IllegalAccessException, ClassNotFoundException {
         return productRepository.getProductsByCategory(categoryCode);
     }

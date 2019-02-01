@@ -12,18 +12,6 @@ public class ProductDTO {
     private int quantity;
     private int categoryCode;
 
-    public ProductDTO(int productCode, String name, String description, String color, String dimension, double weight, double price, int quantity, int categoryCode) {
-        this.productCode = productCode;
-        this.name = name;
-        this.description = description;
-        this.color = color;
-        this.dimension = dimension;
-        this.weight = weight;
-        this.price = price;
-        this.quantity = quantity;
-        this.categoryCode = categoryCode;
-    }
-
     public int getProductCode() {
         return productCode;
     }

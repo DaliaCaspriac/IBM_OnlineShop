@@ -7,13 +7,6 @@ public class ProductReviewDTO {
     private int starts;
     private int productCode;
 
-    public ProductReviewDTO(int reviewID, String comment, int starts, int productCode) {
-        this.reviewID = reviewID;
-        this.comment = comment;
-        this.starts = starts;
-        this.productCode = productCode;
-    }
-
     public int getReviewID() {
         return reviewID;
     }
