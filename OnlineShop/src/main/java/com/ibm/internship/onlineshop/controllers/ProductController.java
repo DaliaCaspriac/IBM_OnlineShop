@@ -1,12 +1,12 @@
 package com.ibm.internship.onlineshop.controllers;
 
 import com.ibm.internship.onlineshop.facade.ProductFacade;
-import com.ibm.internship.onlineshop.facade.dtos.ProductDTO;
 import com.ibm.internship.onlineshop.model.Product;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -30,6 +30,15 @@ public class ProductController {
         logger.debug("Receive " + products.size() + " products.");
         modelMap.addAttribute("products", products);
         logger.debug("Added list of products to the model");
-        return "allProductsView";
+        return "showProductTable";
+    }
+
+    @RequestMapping(path = "/category/{categoryCode}")
+    public String getProductsByCategory(ModelMap modelMap,@PathVariable("categoryCode") int categoryCode) throws IllegalAccessException, ClassNotFoundException {
+        List<Product> products = null;
+        logger.debug("categoryCode = " + categoryCode);
+        products = productFacade.getProductsByCategory(categoryCode);
+        modelMap.addAttribute("products",products);
+        return "showProductTable";
     }
 }
