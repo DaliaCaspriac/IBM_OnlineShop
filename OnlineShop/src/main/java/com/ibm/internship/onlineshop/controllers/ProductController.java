@@ -18,8 +18,10 @@ public class ProductController {
 
     @RequestMapping(path = "/products", method = RequestMethod.GET)
     public String getAllProducts(ModelMap modelMap) throws IllegalAccessException {
-            List<ProductDTO> products = productFacade.getAllProducts();
-            modelMap.addAttribute("products",products);
-            return "allProductsView";
+        List<ProductDTO> products = null;
+        products = productFacade.getAllProducts();
+        System.out.println("SIZE " + products.size());
+        modelMap.addAttribute("products", products);
+        return "allProductsView";
     }
 }

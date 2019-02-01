@@ -1,11 +1,13 @@
 package com.ibm.internship.onlineshop.utils.jdbc;
 
 
+import org.springframework.stereotype.Component;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-
+@Component
 public class MySQLConnectionUtils {
 
     private static final String HOSTNAME = "localhost";
