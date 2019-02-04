@@ -1,6 +1,5 @@
 
-import com.ibm.internship.onlineshop.repositories.ProductRepository;
-import org.junit.Assert;
+import com.ibm.internship.onlineshop.persistance.ProductRepository;
 import org.junit.Before;
 import org.junit.Test;
 

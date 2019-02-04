@@ -1,5 +1,7 @@
 package com.ibm.internship.onlineshop.facade.dtos;
 
+import java.util.List;
+
 public class ProductDTO {
 
     private int productCode;
@@ -11,6 +13,24 @@ public class ProductDTO {
     private double price;
     private int quantity;
     private int categoryCode;
+    private List<ProductReviewDTO> productReviews;
+    private double rating;
+
+    public double getRating() {
+        return rating;
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
+    }
+
+    public List<ProductReviewDTO> getProductReviews() {
+        return productReviews;
+    }
+
+    public void setProductReviews(List<ProductReviewDTO> productReviews) {
+        this.productReviews = productReviews;
+    }
 
     public int getProductCode() {
         return productCode;

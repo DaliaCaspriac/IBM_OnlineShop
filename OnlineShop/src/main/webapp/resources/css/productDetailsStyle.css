@@ -1,0 +1,29 @@
+
+body {
+    background-color: #081a45;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border-style: solid;
+    border-color: white;
+
+}
+td{
+    text-align: left;
+    padding: 8px;
+    color: white;
+    font-size: medium;
+    border-color: white;
+    border-style: solid;
+}
+th{
+    font-size: 30px;
+    text-align: left;
+    padding: 8px;
+    color: #91c7ff;
+}
+h1,h3{
+    color: #91c7ff;
+    width: 60%;
+}

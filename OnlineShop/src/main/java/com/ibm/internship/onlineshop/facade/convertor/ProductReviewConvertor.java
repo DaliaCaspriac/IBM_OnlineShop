@@ -3,7 +3,9 @@ package com.ibm.internship.onlineshop.facade.convertor;
 import com.ibm.internship.onlineshop.facade.dtos.ProductReviewDTO;
 import com.ibm.internship.onlineshop.model.ProductReview;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ProductReviewConvertor implements Convertor<ProductReview, ProductReviewDTO> {
 
     /**

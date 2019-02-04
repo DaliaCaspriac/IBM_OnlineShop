@@ -8,6 +8,7 @@ public interface Convertor<T, U> {
      * @param item
      * @return U
      */
-    U convert(T item);
+    U convert(T item) throws ClassNotFoundException, IllegalAccessException;
+
 
 }

@@ -1,11 +1,10 @@
 package com.ibm.internship.onlineshop.services;
 
 import com.ibm.internship.onlineshop.model.Product;
-import com.ibm.internship.onlineshop.repositories.ProductRepository;
+import com.ibm.internship.onlineshop.persistance.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.SQLException;
 import java.util.List;
 
 @Service
@@ -33,5 +32,16 @@ public class ProductService {
      */
     public List<Product> getProductsByCategory(int categoryCode) throws IllegalAccessException, ClassNotFoundException {
         return productRepository.getProductsByCategory(categoryCode);
+    }
+
+    /**
+     * Get product by code
+     * @param productCode
+     * @return Product object
+     * @throws ClassNotFoundException
+     * @throws IllegalAccessException
+     */
+    public Product getProductByCode(int productCode) throws ClassNotFoundException, IllegalAccessException {
+        return productRepository.getProductByCode(productCode);
     }
 }

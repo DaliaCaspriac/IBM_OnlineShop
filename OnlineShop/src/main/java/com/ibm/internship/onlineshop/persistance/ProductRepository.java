@@ -1,4 +1,4 @@
-package com.ibm.internship.onlineshop.repositories;
+package com.ibm.internship.onlineshop.persistance;
 
 import com.ibm.internship.onlineshop.model.Product;
 import com.ibm.internship.onlineshop.utils.jdbc.MySQLConnectionUtils;
@@ -20,9 +20,9 @@ public class ProductRepository {
      */
     public List<Product> getAllProducts() throws IllegalAccessException, ClassNotFoundException {
         try {
-            PreparedStatement statement = createPreparedStatementToGetAllProducts();
+            PreparedStatement statement = findAll();
             ResultSet resultSet = statement.executeQuery();
-            return getProductRecords(resultSet);
+            return getAllRecords(resultSet);
         } catch (SQLException e) {
             throw new IllegalAccessException(e.getMessage());
         }
@@ -35,7 +35,7 @@ public class ProductRepository {
      * @throws ClassNotFoundException
      * @throws IllegalAccessException if the creation of PreparedStatement fails
      */
-    private static PreparedStatement createPreparedStatementToGetAllProducts() throws ClassNotFoundException, IllegalAccessException {
+    private static PreparedStatement findAll() throws ClassNotFoundException, IllegalAccessException {
         Connection connection = startConnection();
         try {
             String sql = "SELECT * FROM Products";
@@ -58,9 +58,9 @@ public class ProductRepository {
      */
     public List<Product> getProductsByCategory(int categoryCode) throws ClassNotFoundException, IllegalAccessException {
         try {
-            PreparedStatement statement = createPreparedStatementToGetProductsByCategory(categoryCode);
+            PreparedStatement statement = findByCategoryCode(categoryCode);
             ResultSet resultSet = statement.executeQuery();
-            return getProductRecords(resultSet);
+            return getAllRecords(resultSet);
         } catch (SQLException e) {
             throw new IllegalAccessException(e.getMessage());
         }
@@ -73,7 +73,7 @@ public class ProductRepository {
      * @return list of Product objects
      * @throws IllegalAccessException
      */
-    private static List<Product> getProductRecords(ResultSet resultSet) throws IllegalAccessException {
+    private static List<Product> getAllRecords(ResultSet resultSet) throws IllegalAccessException {
         List<Product> products = new ArrayList<>();
         Product product;
         try {
@@ -103,7 +103,7 @@ public class ProductRepository {
      * @throws ClassNotFoundException
      * @throws IllegalAccessException
      */
-    private static PreparedStatement createPreparedStatementToGetProductsByCategory(int categoryCode) throws ClassNotFoundException, IllegalAccessException {
+    private static PreparedStatement findByCategoryCode(int categoryCode) throws ClassNotFoundException, IllegalAccessException {
         Connection connection = startConnection();
         try {
 
@@ -127,5 +127,63 @@ public class ProductRepository {
      */
     private static Connection startConnection() throws IllegalAccessException, ClassNotFoundException {
         return new MySQLConnectionUtils().getMySQLConnection();
+    }
+
+    /**
+     * Find product with specified productCode
+     *
+     * @param productCode - specified productCode
+     * @return PreparedStatment
+     * @throws ClassNotFoundException
+     * @throws IllegalAccessException
+     */
+    private PreparedStatement findByProductCode(int productCode) throws ClassNotFoundException, IllegalAccessException {
+        Connection connection = startConnection();
+        try {
+            String sql = "SELECT * FROM Products WHERE productCode = ?";
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setInt(1, productCode);
+            return statement;
+        } catch (SQLException e) {
+            throw new IllegalAccessException(e.getMessage());
+        } finally {
+            //connection.close();
+        }
+    }
+
+    /**
+     * Get product with specified code
+     * @param productCode
+     * @return Product object
+     * @throws IllegalAccessException
+     * @throws ClassNotFoundException
+     */
+    public Product getProductByCode(int productCode) throws IllegalAccessException, ClassNotFoundException {
+        try{
+            PreparedStatement statement = findByProductCode(productCode);
+            ResultSet resultSet = statement.executeQuery();
+            return getRecord(resultSet);
+        }catch (SQLException e){
+            throw new IllegalAccessException(e.getMessage());
+        }
+    }
+
+    private Product getRecord(ResultSet resultSet) throws IllegalAccessException {
+        try {
+            if (resultSet.next()) {
+                return new Product(resultSet.getInt("productCode"),
+                        resultSet.getString("name"),
+                        resultSet.getString("description"),
+                        resultSet.getString("color"),
+                        resultSet.getString("dimension"),
+                        resultSet.getDouble("weight"),
+                        resultSet.getDouble("price"),
+                        resultSet.getInt("quantity"),
+                        resultSet.getInt("categoryCode"));
+            }
+        } catch (SQLException e) {
+            throw new IllegalAccessException(e.getMessage());
+        }
+        return null;
     }
 }
