@@ -44,4 +44,15 @@ public class ProductFacade {
                 .map(p -> convertor.convert(p))
                 .collect(Collectors.toList());
     }
+
+    /**
+     * Get product by code and parse it to ProductDTO
+     * @param productCode
+     * @return productDTO
+     * @throws IllegalAccessException
+     * @throws ClassNotFoundException
+     */
+    public ProductDTO getProductByCode(int productCode) throws IllegalAccessException, ClassNotFoundException {
+        return convertor.convert(productService.getProductByCode(productCode));
+    }
 }

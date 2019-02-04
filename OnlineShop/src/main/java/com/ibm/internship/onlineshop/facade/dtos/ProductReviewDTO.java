@@ -2,18 +2,8 @@ package com.ibm.internship.onlineshop.facade.dtos;
 
 public class ProductReviewDTO {
 
-    private int reviewID;
     private String comment;
     private int starts;
-    private int productCode;
-
-    public int getReviewID() {
-        return reviewID;
-    }
-
-    public void setReviewID(int reviewID) {
-        this.reviewID = reviewID;
-    }
 
     public String getComment() {
         return comment;
@@ -29,13 +19,5 @@ public class ProductReviewDTO {
 
     public void setStarts(int starts) {
         this.starts = starts;
-    }
-
-    public int getProductCode() {
-        return productCode;
-    }
-
-    public void setProductCode(int productCode) {
-        this.productCode = productCode;
     }
 }

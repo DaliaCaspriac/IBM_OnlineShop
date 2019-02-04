@@ -30,12 +30,20 @@ public class ProductController {
         return "showProductTable";
     }
 
-    @RequestMapping(path = "/category/{categoryCode}")
+    @RequestMapping(path = "/category/{categoryCode}", method=RequestMethod.GET)
     public String getProductsByCategory(ModelMap modelMap, @PathVariable("categoryCode") int categoryCode) throws IllegalAccessException, ClassNotFoundException {
         logger.debug("categoryCode = " + categoryCode);
 
         List<ProductDTO> products = productFacade.getProductsByCategory(categoryCode);
         modelMap.addAttribute("products", products);
         return "showProductTable";
+    }
+
+    @RequestMapping(path="/product/{productCode}", method = RequestMethod.GET)
+    public String getProductByCode(ModelMap modelMap, @PathVariable("productCode") int productCode) throws ClassNotFoundException, IllegalAccessException {
+        logger.debug("Get product with code " + productCode);
+        ProductDTO product = productFacade.getProductByCode( productCode);
+        modelMap.addAttribute("product",product);
+        return "showProductDetails";
     }
 }
