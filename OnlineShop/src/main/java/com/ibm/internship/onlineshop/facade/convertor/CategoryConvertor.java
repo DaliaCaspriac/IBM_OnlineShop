@@ -3,7 +3,9 @@ package com.ibm.internship.onlineshop.facade.convertor;
 import com.ibm.internship.onlineshop.facade.dtos.CategoryDTO;
 import com.ibm.internship.onlineshop.model.Category;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CategoryConvertor implements Convertor<Category, CategoryDTO> {
 
     /**

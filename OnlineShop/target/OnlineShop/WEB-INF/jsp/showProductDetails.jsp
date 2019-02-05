@@ -16,7 +16,7 @@
 <body>
 <div>
     <h1>${product.name}</h1>
-    <h3>General rating: ${product.rating} stars</h3>
+    <h3>General rating: ${product.rating}</h3>
 </div>
 
 <table>
